@@ -87,7 +87,7 @@ impl fmt::Display for Op {
     }
 }
 
-#[derive(Debug, Clone, PartialEq)]
+#[derive(Debug, Clone, Copy, PartialEq)]
 pub enum Expr {
     Sym(String),
     Var(String),
